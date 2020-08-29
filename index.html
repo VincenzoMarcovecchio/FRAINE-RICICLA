@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Speech Recognition</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3acb87dbd6.js" crossorigin="anonymous"></script>
+    <!-- load font awesome here for icon used on the page -->
+</head>
+
+<body onload="incrementCount(10)">
+    <nav>
+        <img src="./frainelogo.gif">
+        <h3>Fraine ricicla</h3>
+        <small><a href="http://www.comune.fraine.ch.it/c069034/images/BROCHURE.pdf">Read more</a></small>
+    </nav>
+    <main>
+        <h2 align=center>Say today my brother</h2>
+        <div class="container">
+            <div class="text-box" contenteditable="true"></div>
+            <i class="fa fa-microphone"></i>
+        </div>
+        <img id="img" />
+    </main>
+    <audio class=" sound" src="audio.mp3"></audio>
+    <div align=center class="main_container" id="id_main_container"> Recycled so far:&nbsp;
+        <div class="container_inner" id="display_div_id">
+
+        </div>%
+    </div>
+    <footer><a class="weatherwidget-io" href="https://forecast7.com/it/41d9114d49/fraine/" data-label_1="FRAINE"
+            data-label_2="WEATHER" data-theme="original">FRAINE WEATHER</a>
+    </footer>
+    <script src="index.js"></script>
+    <script>
+        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+    </script>
+</body>
+
+</html>

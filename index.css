@@ -1,0 +1,105 @@
+body {
+  background: #1e2440;
+  color: #f2efe2;
+  font-size: 16px;
+  font-size:100%;
+  font-family: 'Kaushan Script', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  overflow: hidden;
+}
+nav {
+    height:4.5rem;
+    width: 100vw;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+}
+nav img {
+    height:100%;
+    width:4rem;
+}
+nav h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2rem;
+}
+nav a {
+    text-decoration:none;
+    color:white;
+    margin-left: 2rem;
+}
+nav a:hover {
+  border-bottom: 1px dotted white;
+}
+.container {
+  position: relative;
+  border: 1px solid #f2efe2;
+  width: 40vw;
+  max-width: 60vw;
+  margin: 0 auto;
+  border-radius: 0.1rem;
+  background: #f2efe2;
+  padding: 0.2rem 1rem;
+  color: #1e2440;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+h2 {
+    margin-top: 1rem;
+}
+.text-box p {
+  border-bottom: 1px dotted black;
+  margin: 0px !important;
+}
+.fa {
+  color: white;
+  background: #1e2440;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+  width: 2rem;
+  height: 2rem;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  vertical-align: middle;
+}
+
+#img {
+    max-width: 300px;
+    max-height:300px;
+    margin: 3rem auto;
+    display: block;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+}
+
+
+ .num_tiles {
+  color: #ffffff;
+ }
+
+
+.main_container {
+    display: flex;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 85vw;
+    max-width: 85vw;
+  }
+.text-box {
+    max-height: 55vh;
+  }
+}
